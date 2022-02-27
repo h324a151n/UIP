@@ -20,11 +20,3 @@ Deleting Product in Digikala
     Buying Operations
     Deleting Operations
 
-
-***Keywords***
-Deleting Operations
-    Click Element  //div[text()='سبد خرید']
-    Wait Until Element Is Visible  (//button[@data-cro-id="cart-delete-item-right"])[2]
-    Click Element  (//button[@data-cro-id="cart-delete-item-right"])[2]
-    Page Should Contain  سبد خرید شما خالی است!
-    Capture Page Screenshot
